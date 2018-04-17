@@ -1,2 +1,2 @@
 # user-list-js
-A list of users manegement in pure JS
+A list of users management in pure JS
