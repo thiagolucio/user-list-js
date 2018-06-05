@@ -2,23 +2,15 @@
 // var title = document.querySelector(".first-title"); 
     var title = document.querySelector(".first-title"); 
     title.textContent = "User List Management";
-    // console.log(title.textContent);
-
-//Get Data from User
-
-
 // var user_data = document.querySelector(".tr-user");
 // console.log(user_data);
 
 
 
-var users = document.querySelectorAll(".tr-user");
-   
+var users = document.querySelectorAll(".tr-user");   
 
 for (var i = 0; i < users.length; i++) {
-    var user = users[i];
-
-    
+    var user = users[i];    
 
     //Id from user
     var td_id = user.querySelector(".td-id-user");
@@ -38,10 +30,8 @@ for (var i = 0; i < users.length; i++) {
     //Password from user
     var td_password = user.querySelector(".td-password-user");
     var password = td_password.textContent;
-
     // console.log(users[i]);
     // console.log(td_name.textContent);
-
 
     console.log(name);
     console.log(surname);
@@ -75,8 +65,4 @@ for (var i = 0; i < users.length; i++) {
     if (password == "") {
         td_password.textContent = "PASS not be empty!";
 }
-
-
-
-
 }
