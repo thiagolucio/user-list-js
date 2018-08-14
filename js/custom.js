@@ -39,30 +39,36 @@ for (var i = 0; i < users.length; i++) {
     console.log(email);
     console.log(password);
 
-    // var message = "Not be empty";
-    // var style =  message.style.color = "#ff0000";
+    // var message = "Not be empty";    
+    // if (id == "" && name == "" && surname == "" && age == "" && email == "" && password == "") {
+    //     td_id.textContent = message;
+    //     td_name.textContent = message;
+    //     td_surname.textContent = message;
+    //     td_age.textContent = message;
+    //     td_email.textContent = message;
+    //     td_password.textContent = message;
+    // }
     
-    if (id == "") {        
-        // td_id.textContent = message;
+    if (id == "") {                
         td_id.textContent = "ID not be empty!";
-        // message = style;
-        // td_id.textContent = "ID not be empty!";
-        // td_id.textContent = message.style.color = "#ff0000";
-        
+        //user.style.backgroundColor = "red";        
+        user.classList.add("errorColor");
 }
     if (name == "") {
         td_name.textContent = "NAME not be empty!";
+       
 }
     if (surname == "") {
         td_surname.textContent = "SURNAME not be empty!";
-}
+}      
     if (age == "") {
-        td_age.textContent = "AGE not be empty!";
+        td_age.textContent = "AGE not be empty!";       
 }
     if (email == "") {
-        td_email.textContent = "EMAIL not be empty!";
+        td_email.textContent = "EMAIL not be empty!";       
 }
     if (password == "") {
-        td_password.textContent = "PASS not be empty!";
+        td_password.textContent = "PASS not be empty!";       
 }
 }
+

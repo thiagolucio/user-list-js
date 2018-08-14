@@ -9,3 +9,5 @@ body {
     margin-top: 3%;
 }
 .display-none {display: none;}
+
+.errorColor {background-color: #FF0000;}
