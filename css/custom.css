@@ -10,4 +10,8 @@ body {
 }
 .display-none {display: none;}
 
-.errorColor {background-color: #FF0000;}
+.errorColor {
+    color: #FF0000; 
+    font-weight: bold; 
+   -webkit-text-stroke: 0.6px lightgray;
+}

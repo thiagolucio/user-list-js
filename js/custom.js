@@ -2,17 +2,6 @@
 // var title = document.querySelector(".first-title");
     var title = document.querySelector(".first-title");
     title.textContent = "User List Management";
-<<<<<<< HEAD
-// var user_data = document.querySelector(".tr-user");
-// console.log(user_data);
-
-
-
-var users = document.querySelectorAll(".tr-user");   
-
-for (var i = 0; i < users.length; i++) {
-    var user = users[i];    
-=======
     // console.log(title.textContent);
     //Get Data from User
     // var user_data = document.querySelector(".tr-user");
@@ -25,7 +14,6 @@ var users = document.querySelectorAll(".tr-user");
 
 for (var i = 0; i < users.length; i++) {
     var user = users[i];
->>>>>>> 18e5bcd738f132ac38d0e38cdefce6d784519ff0
 
     //Id from user
     var td_id = user.querySelector(".td-id-user");
@@ -45,16 +33,7 @@ for (var i = 0; i < users.length; i++) {
     //Password from user
     var td_password = user.querySelector(".td-password-user");
     var password = td_password.textContent;
-    // console.log(users[i]);
-    // console.log(td_name.textContent);
 
-    console.log(name);
-    console.log(surname);
-    console.log(age);
-    console.log(email);
-    console.log(password);
-
-<<<<<<< HEAD
     // var message = "Not be empty";    
     // if (id == "" && name == "" && surname == "" && age == "" && email == "" && password == "") {
     //     td_id.textContent = message;
@@ -66,43 +45,38 @@ for (var i = 0; i < users.length; i++) {
     // }
     
     if (id == "") {                
-        td_id.textContent = "ID not be empty!";
+        td_id.textContent = "ID?";
+        td_id.classList.add("errorColor");
         //user.style.backgroundColor = "red";        
-        user.classList.add("errorColor");
-=======
-    // var message = "Not be empty";
-    // var style =  message.style.color = "#ff0000";
+        // var message = "Not be empty";
+        // var style =  message.style.color = "#ff0000";
 
-    if (id == "") {
-        // td_id.textContent = message;
-        td_id.textContent = "ID not be empty!";
-        // message = style;
-        // td_id.textContent = "ID not be empty!";
-        // td_id.textContent = message.style.color = "#ff0000";
-
->>>>>>> 18e5bcd738f132ac38d0e38cdefce6d784519ff0
 }
     if (name == "") {
-        td_name.textContent = "NAME not be empty!";
+        td_name.textContent = "NAME empty!";
+        td_name.classList.add("errorColor");
        
 }
     if (surname == "") {
-        td_surname.textContent = "SURNAME not be empty!";
+        td_surname.textContent = "SURNAME empty!";
+        td_surname.classList.add("errorColor");
 }      
     if (age == "") {
-        td_age.textContent = "AGE not be empty!";       
+        td_age.textContent = "AGE empty!";
+        td_age.classList.add("errorColor");
+        
 }
     if (email == "") {
         td_email.textContent = "EMAIL not be empty!";       
+        td_email.classList.add("errorColor");      
 }
     if (password == "") {
         td_password.textContent = "PASS not be empty!";       
+        td_password.classList.add("errorColor");      
 }
-<<<<<<< HEAD
 }
 
-=======
-} //end for
+
 
 var btnAdd = document.querySelector('#add-user');
 btnAdd.addEventListener("click", function () {
@@ -123,4 +97,3 @@ btnAdd.addEventListener("click", function () {
 
 })
 //Parei na aula 4 - ultima video aula - Adicionando pacientes na tabela
->>>>>>> 18e5bcd738f132ac38d0e38cdefce6d784519ff0
