@@ -39,103 +39,103 @@
     </div>
 </nav>
 
-<div class="wrapper">
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
+<caption class="wrapper">
+<caption class="container">
+    <caption class="row">
+        <caption class="col-md-12">
             <h3 class="text-primary first-title">
                 <!-- Text Tile inser by JS - User List Management -->
             </h3>
-            <div class="row">
-                <div class="col-md-12">
-                <div class="table-responsive-sm">
-                <table class="table table-md table-striped table-hover">
-                    <caption>List of users</caption>
-                    <thead class="thead-dark">
-                        <tr>
-                            <th scope="col">ID</th>
-                            <th scope="col">First Name</th>
-                            <th scope="col">Surname</th>
-                            <th scope="col">Age</th>
-                            <th scope="col">email</th>
-                            <th scope="col">password</th>
-                        </tr>
-                    </thead>
-                    <div class="row">
-                     <div class="alert alert-danger display-none" role="alert">
-                        Name don't be empty!
-                     </div>
-                     </div>
-                    <tbody class="users">
-                        <tr class="tr-user">
-                            <td scope="row" class="td-id-user">1</td>
-                            <td class="td-firstName-user"></td>
-                            <td class="td-surname-user">Lamousiere Glanth</td>
-                            <td class="td-age-user"></td>
-                            <td class="td-email-user">mark@gmail.com</td>
-                            <td class="td-password-user">123</td>
-                        </tr>
-                        <tr class="tr-user">
-                            <th scope="row" class="td-id-user">2</th>
-                            <td  class="td-firstName-user">Jacob</td>
-                            <td class="td-surname-user"></td>
-                            <td class="td-age-user">14</td>
-                            <td  class="td-email-user">jJ@hotmail.com</td>
-                            <td class="td-password-user"></td>
-                        </tr>
-                         <tr class="tr-user">
-                            <th scope="row" class="td-id-user"></th>
-                            <td  class="td-firstName-user"></td>
-                            <td class="td-surname-user">the Bird</td>
-                            <td class="td-age-user">44</td>
-                            <td  class="td-email-user"></td>
-                            <td class="td-password-user">432</td>
-                        </tr>
-                    </tbody>
-                </table>
-                </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
+            <caption class="row">
+                <caption class="col-md-12">
+                <caption class="table-responsive-sm">
+                    <table class="table table-md table-striped table-hover">
+                        <caption>List of users</caption>
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">ID</th>
+                                <th scope="col">First Name</th>
+                                <th scope="col">Surname</th>
+                                <th scope="col">Age</th>
+                                <th scope="col">email</th>
+                                <th scope="col">password</th>
+                            </tr>
+                        </thead>
+                        <div class="row">
+                            <div class="alert alert-danger display-none" role="alert">
+                                Name don't be empty!
+                            </div>
+                        </div>
+                        <tbody class="users" id="table-users">
+                            <tr class="tr-user">
+                                <td scope="row" class="td-id-user">1</td>
+                                <td class="td-firstName-user"></td>
+                                <td class="td-surname-user">Lamousiere Glanth</td>
+                                <td class="td-age-user"></td>
+                                <td class="td-email-user">mark@gmail.com</td>
+                                <td class="td-password-user">123</td>
+                            </tr>
+                            <tr class="tr-user">
+                                <th scope="row" class="td-id-user">2</th>
+                                <td  class="td-firstName-user">Jacob</td>
+                                <td class="td-surname-user"></td>
+                                <td class="td-age-user">14</td>
+                                <td  class="td-email-user">jJ@hotmail.com</td>
+                                <td class="td-password-user"></td>
+                            </tr>
+                            <tr class="tr-user">
+                                <th scope="row" class="td-id-user"></th>
+                                <td  class="td-firstName-user"></td>
+                                <td class="td-surname-user">the Bird</td>
+                                <td class="td-age-user">44</td>
+                                <td  class="td-email-user"></td>
+                                <td class="td-password-user">432</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </caption>
+                </caption>
+            </caption>
+        </caption>
+    </caption>
+</caption>
+</caption>
 
 <div class="container">
-<form id="form-add-user">
-    <div class="form-row">
-        <div class="col-md-4 mb-3">
-            <label for="inputFirstName">First name</label>
-            <input type="text" class="form-control" id="inputFirstName" placeholder="First name" value="" required>
-        </div>
-        <div class="col-md-4 mb-3">
-            <label for="inputSurName">Surname</label>
-            <input type="text" class="form-control" id="inputSurName" placeholder="Surname" value="" required>
-        </div>
-        <div class="col-md-4 mb-3">
-            <label for="inputAge">Age</label>
-            <div class="input-group">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputAge">Age</span>
-                </div>
-                <input type="number" class="form-control" id="inputAge" placeholder="Age" aria-describedby="inputAge" value="" required>
+    <form id="form-add-user">
+        <div class="form-row">
+            <div class="col-md-1mb-3">
+                <label for="inputId">Id</label>
+                <input type="number" class="form-control form-id" id="inputId" placeholder="Id" value="" required maxlength="3" size="3">
+            </div>
+            <div class="col-md-4 mb-3">
+                <label for="inputFirstName">First name</label>
+                <input type="text" class="form-control" id="inputFirstName" placeholder="First name" value="" required>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="inputSurName">Surname</label>
+                <input type="text" class="form-control" id="inputSurName" placeholder="Surname" value="" required>
+            </div>
+            <div class="col-md-1 mb-3">
+                <label for="inputAge">Age</label>
+                <input type="number" class="form-control" id="inputAge" placeholder="Age" aria-describedby="inputAge" value="" required required maxlength="2" size="2">
             </div>
         </div>
-    </div>
-    <div class="form-row">
-        <div class="col-md-6 mb-3">
-            <label for="inputEmail">Email</label>
-            <input type="email" class="form-control" id="inputEmail" placeholder="email" value="email" required>
+        <div class="form-row">
+            <div class="col-md-6 mb-3">
+                <label for="inputEmail">Email</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="email" value="email" required>
+            </div>
+            <div class="col-md-3 mb-3">
+                <label for="inputPassword">Password</label>
+                <input type="text" class="form-control" id="inputPassword" placeholder="Password" value="" required>
+            </div>
+            <div class="col-md-3 md-3">
+                <label for="button" style="color: #2B3E50;">X</label>
+                <button class="btn btn-success btn-block" type="submit" id="add-user"><i class="fas fa-user-plus"></i> Add User</button>
+            </div>
         </div>
-        <div class="col-md-3 mb-3">
-            <label for="inputPassword">Password</label>
-            <input type="text" class="form-control" id="inputPassword" placeholder="Password" value="" required>
-        </div>
-    </div>
-
-    <button class="btn btn-success float-right" type="submit" id="add-user"><i class="fas fa-user-plus"></i> Add User</button>
-</form>
-
+    </form>
 </div>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -144,6 +144,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="js/custom.js"></script>
+    <script src="js/form.js"></script>
 
 </body>
 </html>
