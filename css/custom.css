@@ -4,8 +4,12 @@ body {
     list-style: none;
 }
 
-.wrapper {
-    margin: auto;
+.container {
+    width: 80%;
+}
+
+.margin-content {
+     margin: auto;
     margin-top: 3%;
 }
 .display-none {display: none;}
