@@ -20,12 +20,12 @@ btnAdd.addEventListener("click", function () {
     var passTd = document.createElement("td");
 
     //insert new value inside the new td field
-    idTd.textContent = inputNewId;
-    nameTd.textContent = inputNewName;
-    surNameTd.textContent = inputNewSurname;
-    ageTd.textContent = inputNewAge;
-    emailTd.textContent = inputNewEmail;
-    passTd.textContent = inputNewPass;
+    idTd.textContent = newUser.inputNewId;
+    nameTd.textContent = newUser.inputNewName;
+    surNameTd.textContent = newUser.inputNewSurname;
+    ageTd.textContent = newUser.inputNewAge;
+    emailTd.textContent = newUser.inputNewEmail;
+    passTd.textContent = newUser.inputNewPass;
 
     //insert new td cells(child) inside the new tr(father)
     userTr.appendChild(idTd);
